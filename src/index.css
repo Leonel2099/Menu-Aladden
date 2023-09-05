@@ -2,3 +2,18 @@
 body {
   font-family: "Caveat", cursive;
 }
+.btn{
+    background-color: #286E00;
+    border-color: #FFDF96;
+}
+.btn:hover{
+    background-color: #458023;
+    border-color: #FFDF96;
+}
+.btn-success.btn-success:active{
+    background-color: #215702;
+    border-color: #FFDF96;
+}
+.logo-btn{
+    width: 1rem;
+}
