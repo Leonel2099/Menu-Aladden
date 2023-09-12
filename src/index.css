@@ -15,3 +15,17 @@ body {
   border-color: #ffdf96;
 }
 
+.nav-tabs {
+  border-color: #361608;
+}
+.nav-tabs .nav-link {
+  border-color: #361608;
+  background-color: #ab783fa6;
+}
+.nav-tabs .nav-link.active {
+  border-top-color: #361608;
+  border-right-color: #361608;
+  border-bottom-color: #eca73b;
+  border-left-color: #361608;
+  background-color: #eca73b;
+}
