@@ -29,3 +29,27 @@ body {
   border-left-color: #361608;
   background-color: #eca73b;
 }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-item:nth-child(1) .nav-link {
+    width: 180px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 2560px) {
+  .nav-item:nth-child(1) .nav-link {
+    width: 180px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+}
