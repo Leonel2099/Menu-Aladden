@@ -1,0 +1,19 @@
+.cardAboutView {
+  width: 420.066666px;
+  height: 212.066666px;
+  background-color: #361608;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+.imgAboutView:nth-child(2) {
+  object-fit: cover;
+  width: 198px;
+  height: auto;
+  border-radius: 0 10% 10% 0;
+}
+.imgAboutView:nth-child(1) {
+  object-fit: cover;
+  width: 198px;
+  height: auto;
+  border-radius: 10% 0 0 10%;
+}
