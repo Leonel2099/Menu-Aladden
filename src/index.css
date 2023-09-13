@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap");
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Caveat", cursive;
 }
 .btn {
@@ -21,6 +24,7 @@ body {
 .nav-tabs .nav-link {
   border-color: #361608;
   background-color: #ab783fa6;
+  transition: 0.5s;
 }
 .nav-tabs .nav-link.active {
   border-top-color: #361608;
@@ -28,6 +32,7 @@ body {
   border-bottom-color: #eca73b;
   border-left-color: #361608;
   background-color: #eca73b;
+  transition: 0.5s;
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .nav-item:nth-child(1) .nav-link {
