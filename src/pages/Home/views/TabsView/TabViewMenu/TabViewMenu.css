@@ -1,0 +1,99 @@
+.card-body {
+  background-color: #361608;
+  border-radius: 0 0 10% 10%;
+}
+.card {
+  background-color: #361608;
+  border-radius: 25px;
+}
+.card-img-top {
+  border-radius: 25px 25px 0 0;
+}
+.btnDishMenu {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 5px;
+  width: 130px;
+  height: 30px;
+  border-radius: 60px;
+  font-size: 0.8rem;
+}
+.btnDishMenu i {
+  color: #ffdf96;
+}
+.btnDishMenu p {
+  margin: 0;
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .btnDishMenu {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover {
+    border-radius: 30px;
+    width: 180px;
+  }
+  .btnDishMenu i {
+    font-size: 1rem;
+    color: #ffdf96;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover i {
+    font-size: 0rem;
+  }
+  .btnDishMenu p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 0rem;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 2560px) {
+  .btnDishMenu {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover {
+    border-radius: 30px;
+    width: 180px;
+  }
+  .btnDishMenu i {
+    font-size: 1rem;
+    color: #ffdf96;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover i {
+    font-size: 0rem;
+  }
+  .btnDishMenu p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 0rem;
+    transition: 0.5s;
+  }
+  .btnDishMenu:hover p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1.2rem;
+  }
+}
