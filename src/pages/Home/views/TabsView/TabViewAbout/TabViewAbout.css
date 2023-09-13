@@ -3,19 +3,19 @@
   height: 220px;
   background-color: #361608;
   border-radius: 20px;
-  font-size: 0.65rem;
+  font-size: 0.68rem;
 }
 .imgAboutView:nth-child(2) {
   object-fit: cover;
   width: 140px;
   height: auto;
-  border-radius: 0 10% 10% 0;
+  border-radius: 0 25px 25px 0;
 }
 .imgAboutView:nth-child(1) {
   object-fit: cover;
   width: 140px;
   height: auto;
-  border-radius: 10% 0 0 10%;
+  border-radius: 25px 0 0 25px;
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .cardAboutView {
