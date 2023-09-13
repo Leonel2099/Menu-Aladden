@@ -6,7 +6,7 @@ const TabsView = () => {
   return (
     <Nav variant="tabs">
       <Nav.Item>
-        <NavLink className="nav-link text-white" to={"/tabViewAbout"}>
+        <NavLink className="nav-link text-white" to={"/"}>
           Sobre Nosotros
         </NavLink>
       </Nav.Item>

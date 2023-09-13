@@ -13,7 +13,7 @@ const Home = () => {
       <BrowserRouter>
         <TabsView></TabsView>
         <Routes>
-          <Route exact path="/tabViewAbout" element={<TabViewAbout></TabViewAbout>}></Route>
+          <Route exact path="/" element={<TabViewAbout></TabViewAbout>}></Route>
           <Route exact path="/tabViewMenu" element={<TabViewMenu></TabViewMenu>}></Route>
         </Routes>
       </BrowserRouter>
