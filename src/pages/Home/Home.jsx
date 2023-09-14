@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home mainSection">
       <Hero></Hero>
       <BrowserRouter>
         <TabsView></TabsView>

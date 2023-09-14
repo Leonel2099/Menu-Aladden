@@ -5,6 +5,14 @@
   box-sizing: border-box;
   font-family: "Caveat", cursive;
 }
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.mainSection {
+  flex-grow: 1;
+}
 .btn {
   background-color: #286e00;
   border-color: #ffdf96;
