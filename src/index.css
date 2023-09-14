@@ -1,17 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap");
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Caveat", cursive;
 }
-.btn{
-    background-color: #286E00;
-    border-color: #FFDF96;
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.btn:hover{
-    background-color: #458023;
-    border-color: #FFDF96;
+.mainSection {
+  flex-grow: 1;
 }
-.btn-success.btn-success:active{
-    background-color: #215702;
-    border-color: #FFDF96;
+.btn {
+  background-color: #286e00;
+  border-color: #ffdf96;
+}
+.btn:hover {
+  background-color: #458023;
+  border-color: #ffdf96;
+}
+.btn-success.btn-success:active {
+  background-color: #215702;
+  border-color: #ffdf96;
 }
 
+.nav-tabs {
+  border-color: #361608;
+}
+.nav-tabs .nav-link {
+  border-color: #361608;
+  background-color: #ab783fa6;
+  transition: 0.5s;
+}
+.nav-tabs .nav-link.active {
+  border-top-color: #361608;
+  border-right-color: #361608;
+  border-bottom-color: #eca73b;
+  border-left-color: #361608;
+  background-color: #eca73b;
+  transition: 0.5s;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-item:nth-child(1) .nav-link {
+    width: 180px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 2560px) {
+  .nav-item:nth-child(1) .nav-link {
+    width: 180px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+  .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+}
