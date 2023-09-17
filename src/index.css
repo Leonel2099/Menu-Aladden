@@ -12,6 +12,7 @@
 }
 .mainSection {
   flex-grow: 1;
+  background-color: #eca73b;
 }
 .btn {
   background-color: #286e00;
@@ -42,6 +43,22 @@
   background-color: #eca73b;
   transition: 0.5s;
 }
+.table th {
+  border-color: #361608;
+  background-color: #eca73b;
+}
+.table tr {
+  border-color: #361608;
+}
+.table tr:nth-child(even) td {
+  background-color: #f8bf64;
+}
+.table tr:nth-child(odd) td {
+  background-color: #bf8d3e;
+}
+.table td {
+  border-color: #361608;
+}
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .nav-item:nth-child(1) .nav-link {
     width: 180px;
@@ -49,6 +66,11 @@
     font-size: 1.6rem;
   }
   .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+  .nav-item:nth-child(3) .nav-link {
     width: 100px;
     height: 60px;
     font-size: 1.8rem;
@@ -61,6 +83,11 @@
     font-size: 1.6rem;
   }
   .nav-item:nth-child(2) .nav-link {
+    width: 100px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+  .nav-item:nth-child(3) .nav-link {
     width: 100px;
     height: 60px;
     font-size: 1.8rem;
