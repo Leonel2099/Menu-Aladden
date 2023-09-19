@@ -16,7 +16,7 @@ const LoginModal = () => {
 
   return (
     <>
-      <ButtonLogin></ButtonLogin>
+      <ButtonLogin setShow={setShow}></ButtonLogin>
 
       <Modal centered show={show} onHide={handleClose}>
         <div className="imgModal">
