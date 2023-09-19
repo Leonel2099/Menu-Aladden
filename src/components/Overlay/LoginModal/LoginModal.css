@@ -1,0 +1,218 @@
+.imgModal img {
+  padding-top: 10px;
+  width: 100px;
+}
+.imgModal {
+  position: absolute;
+  width: 170px;
+  height: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 100px;
+  background-color: #361608;
+}
+.modal .modal-content {
+  border-radius: 100px;
+}
+.modalLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  border: solid 5px;
+  border-radius: 100px;
+  border-color: #361608;
+  width: auto;
+  height: 75vh;
+  background-color: #f8bf64;
+}
+.modal-header,
+.modal-body,
+.modal-footer {
+  width: 80vw;
+}
+.modal-header p {
+  padding-top: 2.5rem;
+}
+.modal-body {
+  font-weight: 800;
+  font-size: larger;
+  color: #361608;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .imgModal img {
+    padding-top: 10px;
+    width: 150px;
+  }
+  .imgModal {
+    position: absolute;
+    width: 210px;
+    height: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    background-color: #361608;
+  }
+  .modal .modal-content {
+    border-radius: 100px;
+  }
+  .modalLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: #361608;
+    width: auto;
+    height: 75vh;
+    background-color: #f8bf64;
+  }
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    width: 60vw;
+  }
+  .modal-header p {
+    padding-top: 2.5rem;
+  }
+  .modal-body {
+    font-weight: 800;
+    font-size: larger;
+    color: #361608;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .imgModal img {
+    padding-top: 10px;
+    width: 100px;
+  }
+  .imgModal {
+    position: absolute;
+    width: 170px;
+    height: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    background-color: #361608;
+  }
+  .modal .modal-content {
+    border-radius: 100px;
+  }
+  .modalLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: #361608;
+    width: auto;
+    height: 75vh;
+    background-color: #f8bf64;
+  }
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    width: 80vw;
+  }
+  .modal-header p {
+    padding-top: 2.5rem;
+  }
+  .modal-body {
+    font-weight: 800;
+    font-size: larger;
+    color: #361608;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .imgModal img {
+    padding-top: 10px;
+    width: 140px;
+  }
+  .imgModal {
+    position: absolute;
+    left: 50%;
+    width: 210px;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #361608;
+  }
+  .modal .modal-content {
+    border-radius: 100px;
+  }
+  .modalLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: #361608;
+    width: auto;
+    height: auto;
+    background-color: #f8bf64;
+  }
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    width: 35vw;
+  }
+  .modal-header p {
+    padding-top: 2.5rem;
+  }
+  .modal-body {
+    font-weight: 800;
+    font-size: larger;
+    color: #361608;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .imgModal img {
+    padding-top: 10px;
+    width: 140px;
+  }
+  .imgModal {
+    position: absolute;
+    left: 50%;
+    width: 210px;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #361608;
+  }
+  .modal .modal-content {
+    border-radius: 100px;
+  }
+  .modalLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    border: solid 5px;
+    border-radius: 100px;
+    border-color: #361608;
+    width: auto;
+    height: auto;
+    background-color: #f8bf64;
+  }
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    width: 30vw;
+  }
+  .modal-header p {
+    padding-top: 2.5rem;
+  }
+  .modal-body {
+    font-weight: 800;
+    font-size: larger;
+    color: #361608;
+  }
+}
