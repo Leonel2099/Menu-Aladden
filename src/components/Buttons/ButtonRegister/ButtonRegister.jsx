@@ -3,9 +3,10 @@ import { Button } from "react-bootstrap";
 import logoResgistro from "../../../assets/icons/registerLogo.png"
 import "../ButtonRegister/ButtonRegister.css"
 
-const ButtonRegister = () => {
+const ButtonRegister = ({setShow}) => {
+  const handleShow = () => setShow(true);
   return (
-    <Button className="d-flex align-items-center" variant="success">
+    <Button onClick={handleShow} className="d-flex align-items-center" variant="success">
       <div className="me-1">
         <img className="logoRegistro" src={logoResgistro} alt="logo de registro" />
       </div>
