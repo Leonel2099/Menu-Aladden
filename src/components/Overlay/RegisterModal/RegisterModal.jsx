@@ -13,7 +13,7 @@ const RegisterModal = () => {
 
   return (
     <>
-      <ButtonRegister></ButtonRegister>
+      <ButtonRegister setShow={setShow}></ButtonRegister>
 
       <Modal centered show={show} onHide={handleClose}>
         <div className="imgModalRegister">
