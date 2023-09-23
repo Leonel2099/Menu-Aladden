@@ -4,6 +4,7 @@ import "./NavBar.css";
 import logo from "../../assets/img/logoAladden.png";
 import ButtonRegister from "../../components/Buttons/ButtonRegister/ButtonRegister";
 import LoginModal from "../../components/Overlay/LoginModal/LoginModal";
+import RegisterModal from "../../components/Overlay/RegisterModal/RegisterModal";
 const NavBar = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const NavBar = () => {
           </Navbar.Brand>
           <div className="d-flex">
             <LoginModal></LoginModal>
-            <ButtonRegister></ButtonRegister>
+            <RegisterModal></RegisterModal>
           </div>
         </Container>
       </Navbar>
