@@ -7,6 +7,7 @@ const Preparation = () => {
   return (
     <div>
       <h4 className="display-4">Platos pedidos</h4>
+      <hr />
       <Container>
         <Row>
           <Col lg={6}>
@@ -27,7 +28,7 @@ const Preparation = () => {
         </Row>
       </Container>
       <div className="text-center text-md-end">
-        <Link className="m-3 btn btn-success" to={"/pedidos/datosEnvio"}>
+        <Link className="m-2 px-4 fs-3 btn btn-success" to={"/pedidos/datosEnvio"}>
           Siguiente ⋙
         </Link>
       </div>
