@@ -2,15 +2,17 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Preparation from "../Cart/views/Preparation/Preparation";
-import FormData from "../Cart/views/FormData/FormData";
-import Result from "../Cart/views/Result/Result";
+import InfoModal from "../../components/Overlay/InfoModal/InfoModal";
 const Cart = () => {
   const ok = true;
   return (
     <div className="mainSection">
       <Container>
         <h2 className="text-center display-3 m-2 ">Tus pedidos</h2>
-        <p className="text-center">Timepo estimado 40' a 60'</p>
+        <div className="d-flex justify-content-center">
+          <p className="text-center m-2">Timepo estimado 40' a 60' | </p>
+          <InfoModal></InfoModal>
+        </div>
         <hr />
         {ok ? (
           <>
