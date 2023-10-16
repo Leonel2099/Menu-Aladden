@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Card, CardImg } from "react-bootstrap";
 import "../HorizontalCard/HorizontalCard.css"
+import EditModal from '../../Overlay/EditModal/EditModal';
 const HorizontalCard = () => {
   return (
     <Card className='text-white cardProductoPedidos'>
@@ -24,7 +25,7 @@ const HorizontalCard = () => {
                 </div>
               </Card.Text>
               <div className='text-start'>
-                <Button>Editar Cantidad</Button>
+                <EditModal></EditModal>
               </div>
             </Card.Body>
           </div>
