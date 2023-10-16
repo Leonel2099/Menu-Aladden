@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/*" element={<Home/>}/>
         <Route exact path="/administrador/*" element={<Admin/>}/>
-        <Route exact path="/pedidos" element={<Cart/>}/>
+        <Route exact path="/pedidos/*" element={<Cart/>}/>
       </Routes>
       <Footer></Footer>
     </BrowserRouter>

@@ -1,0 +1,48 @@
+.imgModalEdit {
+  object-fit: fill;
+}
+.editModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 100px;
+  border: solid 5px;
+  border-radius: 100px;
+  border-color: #361608;
+  width: auto;
+  background-color: #f8bf64;
+}
+.editModalBody,
+.editModalHeader {
+  width: 90vw;
+  border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .editModalBody,
+  .editModalHeader {
+    width: 55vw;
+    border: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .editModalBody,
+  .editModalHeader {
+    width: 45vw;
+    border: none;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .editModalBody,
+  .editModalHeader {
+    width: 38vw;
+    border: none;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .editModalBody,
+  .editModalHeader {
+    width: 30vw;
+    font-size: x-large;
+  }
+}
