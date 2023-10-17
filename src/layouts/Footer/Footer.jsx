@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/img/logoAladden.png";
 import { Col, Container, Row } from "react-bootstrap";
 import "../Footer/Footer.css"
 
@@ -10,7 +9,7 @@ const Footer = () => {
         <Row className="align-items-md-center">
           <Col sm={12} md={5}>
             <div>
-              <img className="img-fluid p-3" src={logo}></img>
+              <img className="img-fluid p-3" src="https://i.ibb.co/6Bqn7rw/logo-Aladden.png"></img>
             </div>
           </Col>
           <Col>
