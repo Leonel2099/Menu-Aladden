@@ -1,7 +1,5 @@
 import React from "react";
 import Figure from "react-bootstrap/Figure";
-import about1 from "../../../../../assets/img/about1.jpg";
-import about2 from "../../../../../assets/img/about2.jpeg";
 import { Card } from "react-bootstrap";
 import "../TabViewAbout/TabViewAbout.css";
 
@@ -10,7 +8,8 @@ const TabViewAbout = () => {
     <div className="d-flex flex-column align-items-center m-3">
       <section className="m-3">
         <Card className="d-flex flex-row cardAboutView">
-          <img className="imgAboutView" src={about1} />
+          <img className="imgAboutView" src="https://i.ibb.co/phYxf4F/about1.jpg" />
+
           <p className="text-white p-2 m-0">
             Bienvenidos a Aladden: Un Viaje a los Sabores Árabes En Aladden, nos enorgullecemos de ofrecer una
             experiencia gastronómica única que te transportará a un viaje a través de los sabores y aromas cautivadores
@@ -26,7 +25,7 @@ const TabViewAbout = () => {
             destacan la frescura de los ingredientes locales y las auténticas especias que hacen que la cocina árabe sea
             tan especial.
           </p>
-          <img className="imgAboutView" src={about2} />
+          <img className="imgAboutView" src="https://i.ibb.co/TKnbxcZ/about2.jpg" />
         </Card>
       </section>
     </div>
