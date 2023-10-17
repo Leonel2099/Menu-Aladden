@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import about2 from "../../../../../assets/img/about2.jpeg";
 import "../TabViewMenu/TabViewMenu.css";
 
 const TabViewMenu = () => {
@@ -12,7 +11,7 @@ const TabViewMenu = () => {
         <Row>
           <Col md={6} lg={4}>
             <Card className="m-3">
-              <Card.Img variant="top" className="img-fluid" src={about2} />
+              <Card.Img variant="top" className="img-fluid" src='https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg' />
               <Card.Body>
                 <Card.Title className="text-white">SHAWARMA</Card.Title>
                 <Card.Text className="text-white">
@@ -34,7 +33,7 @@ const TabViewMenu = () => {
           </Col>
           <Col md={6} lg={4}>
             <Card className="m-3">
-              <Card.Img variant="top" src={about2} />
+              <Card.Img variant="top" src='https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg' />
               <Card.Body>
                 <Card.Title className="text-white">SHAWARMA</Card.Title>
                 <Card.Text className="text-white">
@@ -56,7 +55,7 @@ const TabViewMenu = () => {
           </Col>
           <Col md={6} lg={4}>
             <Card className="m-3">
-              <Card.Img variant="top" src={about2} />
+              <Card.Img variant="top" src='https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg' />
               <Card.Body>
                 <Card.Title className="text-white">SHAWARMA</Card.Title>
                 <Card.Text className="text-white">
@@ -78,7 +77,7 @@ const TabViewMenu = () => {
           </Col>
           <Col md={6} lg={4}>
             <Card className="m-3">
-              <Card.Img variant="top" src={about2} />
+              <Card.Img variant="top" src='https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg' />
               <Card.Body>
                 <Card.Title className="text-white">SHAWARMA</Card.Title>
                 <Card.Text className="text-white">

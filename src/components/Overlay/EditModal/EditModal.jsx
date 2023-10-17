@@ -20,7 +20,7 @@ const EditModal = () => {
 
       <Modal id="editModalContent" centered show={show} onHide={handleClose}>
         <div className="imgModal">
-          <img className="img-fluid" alt="Logo" />
+          <img className="img-fluid" src="https://i.ibb.co/Vgq8DyJ/logo3.png" alt="Logo" />
         </div>
         <div className="editModal">
           <Modal.Header className=" editModalHeader justify-content-center pb-0">

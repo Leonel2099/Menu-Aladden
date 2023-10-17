@@ -3,7 +3,6 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
-import logoRegister from "../../../assets/img/logo3.png";
 import "../RegisterModal/RegisterModal.css";
 import ButtonRegister from "../../Buttons/ButtonRegister/ButtonRegister";
 
@@ -17,7 +16,7 @@ const RegisterModal = () => {
 
       <Modal centered show={show} onHide={handleClose}>
         <div className="imgModalRegister">
-          <img className="img-fluid" src={logoRegister} alt="Logo" />
+          <img className="img-fluid" src="https://i.ibb.co/Vgq8DyJ/logo3.png" alt="Logo" />
         </div>
         <div className="modalRegister">
           <Modal.Header className="justify-content-center pb-0 ">

@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import ButtonLogin from "../../Buttons/ButtonLogin/ButtonLogin";
-import logoLogin from "../../../assets/img/logo3.png";
 import "../LoginModal/LoginModal.css";
 
 const LoginModal = () => {
@@ -20,7 +19,7 @@ const LoginModal = () => {
 
       <Modal centered show={show} onHide={handleClose}>
         <div className="imgModal">
-          <img className="img-fluid" src={logoLogin} alt="Logo" />
+          <img className="img-fluid" src="https://i.ibb.co/Vgq8DyJ/logo3.png" alt="Logo" />
         </div>
         <div className="modalLogin">
           <Modal.Header className="justify-content-center pb-0">
